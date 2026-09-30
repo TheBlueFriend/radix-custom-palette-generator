@@ -1,34 +1,33 @@
-<a href="https://radix-ui.com" >
-  <img alt="Radix UI hero image" src="https://repository-images.githubusercontent.com/316012819/b7b19180-3f85-11eb-884c-1e19ce2f493a">
+<a href="https://radix-ui.com/colors" >
+  <img alt="Radix Colors Logo" src="https://github.com/radix-ui/colors/blob/main/colors.png?raw=true">
 </a>
 
-# Radix UI website and documentation
+# Radix Custom Palette Generator
 
-**Everything you need to build a design system, website or web app.**
+**Generate custom colour palettes programmatically within your app.**
 
-Components, colors, icons, templates, and an extensive design system. Free and open-source.
+A minimal replica of the colour palette generator of Radix. Forked from their repository and reduced dependencies.
+
+To create a custom palette by hand, visit their official website: [radix-ui.com/colors/custom](https://radix-ui.com/colors/custom).
 
 ---
 
 ## Documentation
 
-For full documentation, visit [radix-ui.com](https://radix-ui.com).
+Learn more about how Radix Colors work here: [radix-ui.com/colors/docs](https://radix-ui.com/colors/docs).
 
-## Contributing
+## Installation
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+```sh
+# using npm
+npm install radix-custom-palette-generator
 
-Please follow our [contributing guidelines](./.github/CONTRIBUTING.md).
+# using pnpm
+pnpm add radix-custom-palette-generator
 
-## Getting Started
-
-Run the development server:
-
-```bash
-pnpm dev
+# using yarn
+yarn add radix-custom-palette-generator
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Authors
 

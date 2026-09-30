@@ -29,15 +29,18 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
+    "@radix-ui/colors": "^3.0.0",
     "@types/node": "^26.1.1",
+    "bezier-easing": "^3.1.0",
     "bumpp": "^11.1.0",
+    "colorjs.io": "^0.7.1",
     "tsdown": "^0.22.5",
     "typescript": "^7.0.2",
     "vitest": "^4.1.10"
   },
-  "dependencies": {
-    "@radix-ui/colors": "^3.0.0",
-    "bezier-easing": "^3.1.0",
-    "colorjs.io": "^0.7.1"
+  "inlinedDependencies": {
+    "@radix-ui/colors": "3.0.0",
+    "bezier-easing": "3.1.0",
+    "colorjs.io": "0.7.1"
   }
 }

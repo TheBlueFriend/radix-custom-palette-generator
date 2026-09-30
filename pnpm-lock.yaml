@@ -7,23 +7,22 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       '@radix-ui/colors':
         specifier: ^3.0.0
         version: 3.0.0
-      bezier-easing:
-        specifier: ^3.1.0
-        version: 3.1.0
-      colorjs.io:
-        specifier: ^0.7.1
-        version: 0.7.1
-    devDependencies:
       '@types/node':
         specifier: ^26.1.1
         version: 26.6.3
+      bezier-easing:
+        specifier: ^3.1.0
+        version: 3.1.0
       bumpp:
         specifier: ^11.1.0
         version: 11.1.0
+      colorjs.io:
+        specifier: ^0.7.1
+        version: 0.7.1
       tsdown:
         specifier: ^0.22.5
         version: 0.22.14(typescript@7.0.2)
